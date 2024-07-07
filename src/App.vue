@@ -9,10 +9,5 @@
  * Copyright (c) 2024 by ${wucunqian 2801531707@qq.com}, All Rights Reserved. 
 -->
 <template>
-  <div>测试分支</div>
+  <router-view />
 </template>
-
-<script setup lang="ts">
-</script>
-
-<style scoped></style>

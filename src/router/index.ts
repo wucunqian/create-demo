@@ -14,6 +14,7 @@ console.log('History 模式：', createWebHistory());
 const routes: RouteRecordRaw[] = [
   { path: "/", redirect: "/login" },  // 路由重定向
   { path: "/login", name: "login", component: () => import('../views/login/index.vue') },
+  { path: "/table", name: "table", component: () => import('../views/table/index.vue') },
   { path: '/:catchAll(.*)', component: () => import('../views/error/index.vue') },  // 没有路由
 ];
 const router = createRouter({

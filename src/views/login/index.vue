@@ -9,7 +9,7 @@
  * Copyright (c) 2024 by ${wucunqian 2801531707@qq.com}, All Rights Reserved. 
 -->
 <template>
-  <div>{{ stores.objGather.title }} -- <code>{{ stores.objGather.msg }}</code>
+  <div class="text-3xl">{{ stores.objGather.title }} -- <code>{{ stores.objGather.msg }}</code>
   </div>
 </template>
 

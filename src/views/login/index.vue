@@ -2,14 +2,14 @@
  * @Author: wucunqian 2801531707@qq.com
  * @Date: 2024-07-07 16:07:17
  * @LastEditors: wucunqian 2801531707@qq.com
- * @LastEditTime: 2024-07-07 16:51:15
+ * @LastEditTime: 2024-07-08 23:00:57
  * @FilePath: \create-demo\src\views\login\index.vue
  * @Description: 登录界面
  * 
  * Copyright (c) 2024 by ${wucunqian 2801531707@qq.com}, All Rights Reserved. 
 -->
 <template>
-  <div class="text-3xl">{{ stores.objGather.title }} -- <code>{{ stores.objGather.msg }}</code>
+  <div class="text-3xl text-yellow-500/50">{{ stores.objGather.title }} -- <code>{{ stores.objGather.msg }}</code>
   </div>
 </template>
 

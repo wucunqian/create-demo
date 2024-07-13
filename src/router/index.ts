@@ -2,7 +2,7 @@
  * Author: wucunqian 2801531707@qq.com
  * Date: 2024-07-07 16:05:23
  * LastEditors: wucunqian 2801531707@qq.com
- * LastEditTime: 2024-07-07 16:26:43
+ * LastEditTime: 2024-07-13 14:56:04
  * FilePath: \create-demo\src\router\index.ts
  * Description: 
  * 
@@ -14,7 +14,6 @@ console.log('History 模式：', createWebHistory());
 const routes: RouteRecordRaw[] = [
   { path: "/", redirect: "/login" },  // 路由重定向
   { path: "/login", name: "login", component: () => import('../views/login/index.vue') },
-  { path: "/table", name: "table", component: () => import('../views/table/index.vue') },
   { path: '/:catchAll(.*)', component: () => import('../views/error/index.vue') },  // 没有路由
 ];
 const router = createRouter({

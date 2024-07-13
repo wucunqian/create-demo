@@ -14,4 +14,6 @@ export default defineConfig({
     },
   },
   plugins: [formsPlugin],
+  // 自定义，可以给 +前缀 { prefix: 'w:' }
+  attributify: true,
 });

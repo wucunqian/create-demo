@@ -1,3 +1,4 @@
+
 /**
  * Author: wucunqian 2801531707@qq.com
  * Date: 2024-07-07 16:35:01
@@ -10,7 +11,7 @@
  */
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
-export const useLogin = defineStore('useLogin', () => {
+export const useLoginStore = defineStore('useLogin', () => {
   interface UseLogin {
     title: String;
     msg: String;

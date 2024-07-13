@@ -2,7 +2,7 @@
  * @Author: wucunqian 2801531707@qq.com
  * @Date: 2024-07-07 16:07:17
  * @LastEditors: wucunqian 2801531707@qq.com
- * @LastEditTime: 2024-07-08 23:00:57
+ * @LastEditTime: 2024-07-13 15:32:09
  * @FilePath: \create-demo\src\views\login\index.vue
  * @Description: 登录界面
  * 
@@ -14,8 +14,10 @@
 </template>
 
 <script setup lang="ts">
-import { Ref, ref } from 'vue';
+import { onMounted, Ref, ref } from 'vue';
 import { useLogin } from '../../stores/useLogin';
+import { loginapi } from '../../api/loginapi';
+
 const stores = useLogin();
 
 </script>

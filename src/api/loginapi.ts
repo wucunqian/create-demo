@@ -9,7 +9,6 @@
  * Copyright (c) 2024 by ${wucunqian 2801531707@qq.com}, All Rights Reserved. 
  */
 import request from '../utils/axios';
-// console.log(request);
-// export const loginapi = (params) => {
-//   return request.post('/kyf-activity-api/activity/queryInviteActivityRule', params, { slientError: true, loading: true });
-// };
+export const loginapi = (params) => {
+  return request.post('/', params, { slientError: true, loading: true });
+};

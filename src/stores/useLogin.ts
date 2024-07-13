@@ -13,8 +13,8 @@ import { defineStore } from 'pinia';
 import { ref } from 'vue';
 export const useLoginStore = defineStore('useLogin', () => {
   interface UseLogin {
-    title: String;
-    msg: String;
+    title: string;
+    msg: string;
   }
   const objGather = ref<UseLogin>({
     title: 'useLogin',

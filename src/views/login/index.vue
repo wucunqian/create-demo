@@ -1,23 +1,14 @@
-<!--
- * @Author: wucunqian 2801531707@qq.com
- * @Date: 2024-07-07 16:07:17
- * @LastEditors: wucunqian 2801531707@qq.com
- * @LastEditTime: 2024-07-13 20:11:02
- * @FilePath: \create-demo\src\views\login\index.vue
- * @Description: 登录界面
- * 
- * Copyright (c) 2024 by ${wucunqian 2801531707@qq.com}, All Rights Reserved. 
--->
 <template>
   <div>
-    login
+    login {{ stores.objGather.title }}
   </div>
 
 </template>
 
 <script setup lang="ts">
-
+import { useLoginStore } from '../../stores/useLogin';
 const stores = useLoginStore();
+console.log('stores', stores.objGather)
 
 </script>
 
